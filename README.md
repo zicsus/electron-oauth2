@@ -1,4 +1,4 @@
-# Electron OAuth2
+# oauth2-for-electron
 
 ## What's this
 
@@ -8,11 +8,11 @@ A super lightweight and simple OAuth2 utility for Electron. Only Authorization C
 
 #### Install
 
-`npm install electron-oauth2`
+`npm install oauth2-for-electron`
 
 #### Uninstall
 
-`npm uninstall electron-oauth2`
+`npm uninstall oauth2-for-electron`
 
 #### Config
 
@@ -34,7 +34,7 @@ const config = {
 
 ```js
 
-const OAuth2 = require('electron-oauth2');
+const OAuth2 = require('oauth2-for-electron');
 
 const window = new BrowserWindow({
   width: 600,
@@ -62,7 +62,7 @@ provider.begin(win, (err, response) =>
 
 ```js
 
-const OAuth2 = require('electron-oauth2');
+const OAuth2 = require('oauth2-for-electron');
 
 const provider = new OAuth2(config);
 provider.refreshToken(refresh_token)

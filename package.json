@@ -1,5 +1,5 @@
 {
-  "name": "electron-oauth2",
+  "name": "oauth2-for-electron",
   "version": "1.0.0",
   "description": "OAuth2 utitlity for electron",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zicsus/electron-oauth2.git"
+    "url": "git+https://github.com/zicsus/oauth2-for-electron.git"
   },
   "keywords": [
-    "electron-oauth2",
+    "oauth2-for-electron",
     "electron",
     "oauth",
     "oauth2"
@@ -19,9 +19,9 @@
   "author": "Himanshu Mishra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zicsus/electron-oauth2/issues"
+    "url": "https://github.com/zicsus/oauth2-for-electron/issues"
   },
-  "homepage": "https://github.com/zicsus/electron-oauth2#readme",
+  "homepage": "https://github.com/zicsus/oauth2-for-electron#readme",
   "dependencies": {
     "request": "^2.88.0"
   }
