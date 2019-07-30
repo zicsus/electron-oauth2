@@ -1,4 +1,5 @@
 'use strict';
+const {urlParams} = require('./utils');
 const request = require('./request');
 
 module.exports = function(config)
